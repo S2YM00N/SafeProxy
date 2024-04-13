@@ -1,0 +1,7 @@
+name: SafeProxy
+version: 1.0.0
+main: xyz.safeproxy.Main
+
+commands:
+  stats:
+  safeproxy:

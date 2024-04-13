@@ -1,0 +1,14 @@
+prefix: '&b&lSafeProxy &6»'
+actionbarmsg: '{prefix} &7CPS/s&8: &3{amount} &8| &7PING/s&8: &3{amount} &8| &7L4&8: &3{amount}'
+bot-connection-blocker:
+  max-attempts: 3
+  check-interval: 60
+  kick-message: "&cBot behavior detected."
+  suspicious-ips:
+    - "127.0.0.1"
+    - "192.168.0.1"
+  block-vpn: true
+  allowed-countries:
+    - "Poland"
+    - "Germany"
+
